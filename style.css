@@ -6,7 +6,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .help-those {
-  background-image: url(images/donation4.jpg);
+  background-image: url(images/sylhet.jpg);
   height: 85vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,7 +66,7 @@ body {
   height: 200px;
   width: 200px;
   border-radius: 7px;
-  box-shadow: 0px 5px 17px -3px rgba(110,107,107,0.75);
+  box-shadow: 0px 5px 17px -3px rgba(110, 107, 107, 0.75);
   background-color: #fafafa;
   display: flex;
   flex-direction: column;
@@ -90,56 +90,108 @@ body {
   gap: 30px;
   margin-bottom: 80px;
 }
-#selected{
-    border: 3px solid red;
-    background-color: rgba(255, 0, 0, 0.1);
-    color: red;
+#selected {
+  border: 3px solid red;
+  background-color: rgba(255, 0, 0, 0.1);
+  color: red;
 }
-.donate-input{
-    font-family: "Montserrat", sans-serif;
-    font-size: 17px;
-    border: none;
-    outline-width: 0;
-    border-bottom: 2px solid #ebeaea;
-    width: 70%;
-    text-align: center;
-    margin-bottom: 60px;
-    padding: 15px 0;
-    
+.donate-input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  border: none;
+  outline-width: 0;
+  border-bottom: 2px solid #ebeaea;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 15px 0;
+}
+#plan{
+    margin-top: 50px;
+    background-color: azure;
 }
 
 .donate-plan-small-box {
-    height: 300px;
-    width: 300px;
-    background-color: #fafafa;
-    box-shadow: 0px 5px 17px -3px rgba(110,107,107,0.75);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: ;
-    gap: 20px;
-    padding: 30px;
-  }
-  .donate-plan-boxes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 80px;
-    
-  }
-  .donate-plan-boxes img{
-    height: 50px;
-    width: 50px;
-  }
-  #food{
-    background-color: rgba(79, 157, 166, 0.1);
-    
-  }
-  #shelter{
-    background-color: rgba(255, 89, 89, 0.1);
-  }
-  #edu{
-    background-color: rgba(255, 244, 214, 1);
-  }
+  height: 300px;
+  width: 300px;
+  background-color: #fafafa;
+  box-shadow: 0px 5px 17px -3px rgba(110, 107, 107, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: ;
+  gap: 20px;
+  padding: 30px;
+}
+.donate-plan-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+.donate-plan-boxes img {
+  height: 50px;
+  width: 50px;
+}
+#food {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+#shelter {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+#edu {
+  background-color: rgba(255, 244, 214, 1);
+}
+
+#update{
+    background-color: whitesmoke;
+}
+.subscribe-div {
+  background-color: #FFF4D6;
+  height: 25vh;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-div input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  outline-width: 0;
+  width: 400px;
+  text-align: left;
+  padding: 17px 17px;
+  background-color: #d9d9d9;
+}
+.subscribe-div a {
+  background-color: #f15050;
+  text-decoration: none;
+  padding: 18px 29px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+}
+
+footer {
+  background-color: #0b0d17;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer h2 {
+  color: #f15050;
+  font-size: 2.5rem;
+}
+footer p {
+  color: #d9d9d9;
+  font-size: 1.3rem;
+}
