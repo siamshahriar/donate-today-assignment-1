@@ -111,7 +111,7 @@ font-family: 'Poppins', sans-serif;
   padding: 15px 0;
 }
 #plan {
-  margin-top: 50px;
+  margin-top: 10px;
   background-color: azure;
 }
 
@@ -187,7 +187,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .subscribe-div input {
-  font-family: "Montserrat", sans-serif;
+    font-family: 'Poppins', sans-serif;
   font-size: 17px;
   border: none;
   border-radius: 5px;
@@ -216,12 +216,13 @@ footer {
   gap: 20px;
 }
 footer h2 {
+    font-family: 'Kaushan Script', cursive;
   color: #f15050;
   font-size: 2.5rem;
 }
 footer p {
   color: #d9d9d9;
-  font-size: 1.3rem;
+  font-size: 1 rem;
 }
 
 .three {
