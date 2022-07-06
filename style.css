@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .help-those {
   background-image: url(images/sylhet.jpg);
@@ -26,8 +26,9 @@ body {
 }
 
 .help-those h1 {
+  font-family: "Inter", sans-serif;
   color: #fff;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 900;
   margin-bottom: 30px;
 }
@@ -38,9 +39,10 @@ body {
   font-size: 1.1rem;
 }
 .donate-btn {
+  font-family: "Inter", sans-serif;
   background-color: #f15050;
   text-decoration: none;
-  padding: 13px 19px;
+  padding: 15px 20px;
   border-radius: 8px;
   color: #fff;
   font-weight: 700;
@@ -51,9 +53,10 @@ body {
   height: 85vh;
 }
 .donate-today-heading {
+  font-family: "Inter", sans-serif;
   color: #121212;
   font-size: 3rem;
-  font-weight: 900;
+  font-weight: 800;
   margin-bottom: 30px;
 }
 .donate-today-paragraph {
@@ -63,6 +66,7 @@ body {
   font-size: 1.3rem;
 }
 .small-box {
+    font-family: 'Inter', sans-serif;
   height: 200px;
   width: 200px;
   border-radius: 7px;
@@ -96,7 +100,7 @@ body {
   color: red;
 }
 .donate-input {
-  font-family: "Montserrat", sans-serif;
+font-family: 'Poppins', sans-serif;
   font-size: 17px;
   border: none;
   outline-width: 0;
@@ -119,10 +123,18 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
   gap: 20px;
   padding: 30px;
 }
+.donate-plan-small-box h2{
+    color: #121212;
+    font-weight: bold;
+}
+.donate-plan-small-box p{
+    color: #707070;
+}
+
+
 .donate-plan-boxes {
   display: flex;
   flex-direction: row;
@@ -212,6 +224,15 @@ footer p {
   font-size: 1.3rem;
 }
 
-.three{
-    align-items: center;
+.three {
+  align-items: center;
+  height: 150px;
+  background-color: rgba(15, 183, 250, 0.103);
+}
+#three-button {
+  padding: 50px;
+}
+#three-button-section {
+  height: auto;
+  background-color: rgb(243, 243, 243);
 }
